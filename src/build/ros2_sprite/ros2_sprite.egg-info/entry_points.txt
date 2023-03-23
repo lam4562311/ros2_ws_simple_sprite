@@ -1,0 +1,3 @@
+[console_scripts]
+sprite = ros2_sprite.sprite:main
+

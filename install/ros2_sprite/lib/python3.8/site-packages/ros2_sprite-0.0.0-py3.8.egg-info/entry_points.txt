@@ -1,0 +1,4 @@
+[console_scripts]
+API = ros2_sprite.API:main
+sprite = ros2_sprite.sprite:main
+

@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sprite Control</title>
+    <script src="https://cdn.socket.io/3.1.2/socket.io.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      var socket = io.connect('http://localhost:5000');
+
+      // Listen for the 'sprite_pose' event and update the values on the page
+      socket.on('sprite_pose', function(msg) {
+        $('#x').text(msg.x);
+        $('#y').text(msg.y);
+        $('#z').text(msg.z);
+      });
+
+      // Emit a 'move' event with the linear_x and linear_y values
+      function move() {
+        var linear_x = $('#linear_x').val();
+        if (!$.isNumeric(linear_x)) {
+          linear_x = 0.0;
+        }
+        var linear_y = $('#linear_y').val();
+        if (!$.isNumeric(linear_y)) {
+          linear_y = 0.0;
+        }
+        var angular_z = $('#angular_z').val();
+        if (!$.isNumeric(angular_z)) {
+          angular_z = 0.0;
+        }
+        socket.emit('move', {linear_x: linear_x, linear_y: linear_y, angular_z: angular_z});
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Sprite Control</h1>
+    <form>
+      <label for="linear_x">Linear X:</label>
+      <input type="text" id="linear_x" name="linear_x"><br><br>
+      <label for="linear_y">Linear Y:</label>
+      <input type="text" id="linear_y" name="linear_y"><br><br>
+      <label for="angular_z">Angular Z:</label>
+      <input type="text" id="angular_z" name="angular_z"><br><br>
+      <button type="button" onclick="move()">Move</button>
+    </form>
+
+    <!-- Add placeholders for the sprite pose values -->
+    <h2>Sprite Pose</h2>
+    <p>X: <span id="x"></span></p>
+    <p>Y: <span id="y"></span></p>
+    <p>Theta: <span id="z"></span></p>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+[0.666s] Invoking command in '/home/ubuntu/ros2_ws/src/ros2_sprite': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/ros2_sprite/prefix_override:/home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_sprite build --build-base /home/ubuntu/ros2_ws/src/build/ros2_sprite/build install --record /home/ubuntu/ros2_ws/src/build/ros2_sprite/install.log --install-scripts $base/lib/ros2_sprite --single-version-externally-managed
+[0.878s] running egg_info
+[0.879s] creating ../build/ros2_sprite/ros2_sprite.egg-info
+[0.879s] writing ../build/ros2_sprite/ros2_sprite.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../build/ros2_sprite/ros2_sprite.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../build/ros2_sprite/ros2_sprite.egg-info/entry_points.txt
+[0.880s] writing requirements to ../build/ros2_sprite/ros2_sprite.egg-info/requires.txt
+[0.880s] writing top-level names to ../build/ros2_sprite/ros2_sprite.egg-info/top_level.txt
+[0.882s] writing manifest file '../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.917s] reading manifest file '../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.918s] writing manifest file '../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.918s] running build
+[0.919s] running build_py
+[0.919s] creating /home/ubuntu/ros2_ws/src/build/ros2_sprite/build
+[0.919s] creating /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib
+[0.919s] creating /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib/ros2_sprite
+[0.920s] copying ros2_sprite/sprite.py -> /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib/ros2_sprite
+[0.920s] copying ros2_sprite/__init__.py -> /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib/ros2_sprite
+[0.920s] running install
+[0.920s] running install_lib
+[0.922s] creating /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.922s] copying /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib/ros2_sprite/sprite.py -> /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.922s] copying /home/ubuntu/ros2_ws/src/build/ros2_sprite/build/lib/ros2_sprite/__init__.py -> /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.922s] byte-compiling /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite/sprite.py to sprite.cpython-38.pyc
+[0.924s] byte-compiling /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite/__init__.py to __init__.cpython-38.pyc
+[0.924s] running install_data
+[0.925s] creating /home/ubuntu/ros2_ws/src/install/ros2_sprite/share/ament_index
+[0.925s] creating /home/ubuntu/ros2_ws/src/install/ros2_sprite/share/ament_index/resource_index
+[0.926s] creating /home/ubuntu/ros2_ws/src/install/ros2_sprite/share/ament_index/resource_index/packages
+[0.926s] copying resource/ros2_sprite -> /home/ubuntu/ros2_ws/src/install/ros2_sprite/share/ament_index/resource_index/packages
+[0.926s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/ros2_sprite/share/ros2_sprite
+[0.926s] running install_egg_info
+[0.928s] Copying ../build/ros2_sprite/ros2_sprite.egg-info to /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite-0.0.0-py3.8.egg-info
+[0.929s] running install_scripts
+[0.948s] Installing sprite script to /home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/ros2_sprite
+[0.948s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/ros2_sprite/install.log'
+[0.974s] Invoked command in '/home/ubuntu/ros2_ws/src/ros2_sprite' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/src/build/ros2_sprite/prefix_override:/home/ubuntu/ros2_ws/src/install/ros2_sprite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_sprite build --build-base /home/ubuntu/ros2_ws/src/build/ros2_sprite/build install --record /home/ubuntu/ros2_ws/src/build/ros2_sprite/install.log --install-scripts $base/lib/ros2_sprite --single-version-externally-managed

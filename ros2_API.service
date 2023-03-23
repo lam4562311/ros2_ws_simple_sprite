@@ -1,0 +1,13 @@
+[Unit]
+Description=ROS2 sprite control node
+After=network.target
+
+[Service]
+Type=simple
+User=<username>
+ExecStart= source /opt/ros/foxy/setup.bash && source /home/ubuntu/ros2_ws/install/setup.bash && ros2 run ros2_sprite API
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

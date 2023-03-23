@@ -1,0 +1,37 @@
+[0.741s] Invoking command in '/home/ubuntu/ros2_ws/src/ros2_sprite': PYTHONPATH=/home/ubuntu/ros2_ws/build/ros2_sprite/prefix_override:/home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_sprite build --build-base /home/ubuntu/ros2_ws/build/ros2_sprite/build install --record /home/ubuntu/ros2_ws/build/ros2_sprite/install.log --install-scripts $base/lib/ros2_sprite --single-version-externally-managed
+[0.955s] running egg_info
+[0.956s] creating ../../build/ros2_sprite/ros2_sprite.egg-info
+[0.956s] writing ../../build/ros2_sprite/ros2_sprite.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/ros2_sprite/ros2_sprite.egg-info/dependency_links.txt
+[0.956s] writing entry points to ../../build/ros2_sprite/ros2_sprite.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/ros2_sprite/ros2_sprite.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/ros2_sprite/ros2_sprite.egg-info/top_level.txt
+[0.958s] writing manifest file '../../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.993s] reading manifest file '../../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/ros2_sprite/ros2_sprite.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.995s] running build_py
+[0.995s] creating /home/ubuntu/ros2_ws/build/ros2_sprite/build
+[0.995s] creating /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib
+[0.995s] creating /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib/ros2_sprite
+[0.995s] copying ros2_sprite/sprite.py -> /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib/ros2_sprite
+[0.996s] copying ros2_sprite/__init__.py -> /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib/ros2_sprite
+[0.996s] running install
+[0.996s] running install_lib
+[0.997s] creating /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.998s] copying /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib/ros2_sprite/sprite.py -> /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.998s] copying /home/ubuntu/ros2_ws/build/ros2_sprite/build/lib/ros2_sprite/__init__.py -> /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite
+[0.998s] byte-compiling /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite/sprite.py to sprite.cpython-38.pyc
+[1.000s] byte-compiling /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite/__init__.py to __init__.cpython-38.pyc
+[1.000s] running install_data
+[1.002s] creating /home/ubuntu/ros2_ws/install/ros2_sprite/share/ament_index
+[1.002s] creating /home/ubuntu/ros2_ws/install/ros2_sprite/share/ament_index/resource_index
+[1.002s] creating /home/ubuntu/ros2_ws/install/ros2_sprite/share/ament_index/resource_index/packages
+[1.003s] copying resource/ros2_sprite -> /home/ubuntu/ros2_ws/install/ros2_sprite/share/ament_index/resource_index/packages
+[1.003s] copying package.xml -> /home/ubuntu/ros2_ws/install/ros2_sprite/share/ros2_sprite
+[1.004s] running install_egg_info
+[1.004s] Copying ../../build/ros2_sprite/ros2_sprite.egg-info to /home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite-0.0.0-py3.8.egg-info
+[1.005s] running install_scripts
+[1.024s] Installing sprite script to /home/ubuntu/ros2_ws/install/ros2_sprite/lib/ros2_sprite
+[1.024s] writing list of installed files to '/home/ubuntu/ros2_ws/build/ros2_sprite/install.log'
+[1.051s] Invoked command in '/home/ubuntu/ros2_ws/src/ros2_sprite' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/ros2_sprite/prefix_override:/home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_sprite build --build-base /home/ubuntu/ros2_ws/build/ros2_sprite/build install --record /home/ubuntu/ros2_ws/build/ros2_sprite/install.log --install-scripts $base/lib/ros2_sprite --single-version-externally-managed

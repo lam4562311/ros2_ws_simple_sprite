@@ -1,0 +1,14 @@
+[Unit]
+Description=ROS2 sprite control node
+After=network.target
+
+[Service]
+Type=simple
+# Environment="HOME=root"
+User=ubuntu
+ExecStart=/home/ubuntu/ros2_ws/start.bash
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

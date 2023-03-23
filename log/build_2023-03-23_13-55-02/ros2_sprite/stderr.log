@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2_ws/install/ros2_sprite/lib/python3.8/site-packages/ros2_sprite/API.py", line 55
+    def main()
+             ^
+SyntaxError: invalid syntax
+

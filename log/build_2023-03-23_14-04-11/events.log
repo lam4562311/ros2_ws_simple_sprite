@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000960] (ros2_sprite) JobQueued: {'identifier': 'ros2_sprite', 'dependencies': OrderedDict()}
+[0.001288] (ros2_sprite) JobStarted: {'identifier': 'ros2_sprite'}
+[0.007250] (ros2_sprite) JobEnded: {'identifier': 'ros2_sprite', 'rc': 0}
+[0.017777] (-) EventReactorShutdown: {}
